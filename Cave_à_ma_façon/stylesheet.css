@@ -1,0 +1,79 @@
+/* Nouvelle Feuille de Style avec Couleurs Vin */
+
+/* Réinitialisation */
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: 'Arial', sans-serif;
+}
+
+body {
+   background: #350312; /* Couleur vin */
+   color: #F8E8E8;
+   font-size: 16px;
+   line-height: 1.6;
+   padding: 20px;
+}
+
+/* En-tête */
+header {
+   background: #3A0918;
+   color: #F8E8E8;
+   padding: 20px;
+   text-align: center;
+   border-bottom: 3px solid #d61e1e;
+}
+
+header h1 {
+   font-size: 24px;
+   text-transform: uppercase;
+}
+
+/* Menu */
+nav {
+   background: #5A1229;
+   padding: 10px;
+   text-align: center;
+}
+
+nav ul {
+   list-style: none;
+}
+
+nav ul li {
+   display: inline;
+   margin: 0 15px;
+}
+
+nav ul li a {
+   color: #F8E8E8;
+   text-decoration: none;
+   font-size: 18px;
+}
+
+nav ul li a:hover {
+   color: #A52A2A;
+   text-decoration: underline;
+}
+
+/* Contenu principal */
+main {
+   background: #F8E8E8;
+   color: #3A0918;
+   padding: 20px;
+   margin: 20px auto;
+   width: 80%;
+   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+   border-radius: 10px;
+}
+
+/* Pied de page */
+footer {
+   background: #3A0918;
+   color: #F8E8E8;
+   text-align: center;
+   padding: 10px;
+   margin-top: 20px;
+   font-size: 14px;
+}
